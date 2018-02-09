@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Races-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="DDRace" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HS3-zW-Fwv">
+                                <rect key="frame" x="0.0" y="69.5" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="Ymg-GR-IN8"/>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="sPB-WB-Kgl"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D&amp;D Races" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Yw-BX-MxI">
+                                <rect key="frame" x="101" y="20" width="173" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uke-Gr-ykv">
+                                <rect key="frame" x="0.0" y="359.5" width="375" height="258.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Dragonborn resemble humanoid dragons. They’re covered in scaly hide, but they don’t have tails. They are tall and strongly built, often standing close to 6½ feet in height and weighing 300 pounds or more. Their hands and feet are strong, talonlike claws with three fingers and a thumb on each hand. A dragonborn’s head features a blunt snout, a strong brow, and distinctive frills at the cheek and ear. Behind the brow, a crest of hornlike scales of various lengths resembles thick, ropy hair. Their eyes are shades of red or gold. A typical dragonborn’s scales can be scarlet, gold, rust, ocher, bronze, or brown. Rarely do an individual’s scales match the hue of a chromatic or metallic dragon, and scale color gives no indication of the type of breath weapon a dragonborn uses. Most dragonborn have very fine scales over most of their body, giving their skin a leathery texture, with regions of larger scales on the forearms, lower legs and feet, shoulders, and thighs. Young dragonborn grow faster than human children do. They walk hours after hatching, reach the size and development of a 10-year-old human child by the age of 3 and reach adulthood by 15. They live about as long as humans do.</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="9" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="16" lineHeightMultiple="1.5" defaultTabInterval="27.149999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="27.149999618530273">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dragonborn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6h-KG-aXT">
+                                <rect key="frame" x="0.0" y="272" width="375" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HS3-zW-Fwv" firstAttribute="top" secondItem="4Yw-BX-MxI" secondAttribute="bottom" constant="11" id="78y-pN-GOk"/>
+                            <constraint firstItem="M6h-KG-aXT" firstAttribute="top" secondItem="4Yw-BX-MxI" secondAttribute="bottom" constant="213.5" id="Fzy-Ia-fZR"/>
+                            <constraint firstItem="HS3-zW-Fwv" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="HTs-Ai-0L5"/>
+                            <constraint firstItem="4Yw-BX-MxI" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="KKy-HG-Bce"/>
+                            <constraint firstItem="M6h-KG-aXT" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="NJ0-ta-5Tl"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="4Yw-BX-MxI" secondAttribute="trailing" constant="101" id="YJF-dt-Y2J"/>
+                            <constraint firstItem="HS3-zW-Fwv" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="cbl-8n-0MI"/>
+                            <constraint firstItem="Uke-Gr-ykv" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="dtd-zq-fNj"/>
+                            <constraint firstItem="Uke-Gr-ykv" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="eCy-TW-1Dn"/>
+                            <constraint firstItem="M6h-KG-aXT" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="fS7-hw-MMA"/>
+                            <constraint firstItem="Uke-Gr-ykv" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="hEe-yy-TrN"/>
+                            <constraint firstItem="4Yw-BX-MxI" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="101" id="jeu-Y9-d0b"/>
+                            <constraint firstItem="Uke-Gr-ykv" firstAttribute="top" secondItem="M6h-KG-aXT" secondAttribute="bottom" constant="58.5" id="uwl-BU-Tcy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Races" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="raceDescription" destination="Uke-Gr-ykv" id="qkL-na-QNS"/>
+                        <outlet property="raceName" destination="M6h-KG-aXT" id="7vD-nH-gbx"/>
+                        <outlet property="racePicker" destination="HS3-zW-Fwv" id="wuJ-6t-xL9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+        </scene>
+        <!--Third-->
+        <scene sceneID="tQi-at-WmZ">
+            <objects>
+                <viewController id="nRs-ZF-ufc" userLabel="Third" customClass="ThirdViewController" customModule="DDRace" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dkR-e8-8A5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9F-xZ-Hwv">
+                                <rect key="frame" x="26" y="201" width="92" height="30"/>
+                                <state key="normal" title="Human Grunt"/>
+                                <connections>
+                                    <action selector="humanPlay:" destination="nRs-ZF-ufc" eventType="touchUpInside" id="sxX-2T-f18"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJi-fV-xaE">
+                                <rect key="frame" x="273" y="201" width="68" height="30"/>
+                                <state key="normal" title="Orc Grunt"/>
+                                <connections>
+                                    <action selector="orcPlay:" destination="nRs-ZF-ufc" eventType="touchUpInside" id="z5g-wO-KBO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FyN-OQ-cCg" firstAttribute="trailing" secondItem="wJi-fV-xaE" secondAttribute="trailing" constant="34" id="49W-iZ-ycf"/>
+                            <constraint firstItem="p9F-xZ-Hwv" firstAttribute="leading" secondItem="FyN-OQ-cCg" secondAttribute="leading" constant="26" id="DAk-3h-7vs"/>
+                            <constraint firstItem="wJi-fV-xaE" firstAttribute="top" secondItem="FyN-OQ-cCg" secondAttribute="top" constant="181" id="VLK-oe-GNq"/>
+                            <constraint firstItem="p9F-xZ-Hwv" firstAttribute="top" secondItem="FyN-OQ-cCg" secondAttribute="top" constant="181" id="jg7-My-p4r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FyN-OQ-cCg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="Grunts" image="second" id="sXL-aE-Tib"/>
+                    <connections>
+                        <outlet property="humanButton" destination="p9F-xZ-Hwv" id="PII-08-Val"/>
+                        <outlet property="orcButton" destination="wJi-fV-xaE" id="Ahg-RD-CfL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6zr-5k-lry" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2.3999999999999999" y="-699.40029985007504"/>
+        </scene>
+        <!--Calculate-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="DDRace" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ea-HL-mbX">
+                                <rect key="frame" x="118" y="193" width="138" height="30"/>
+                                <state key="normal" title="D&amp;D Calculations"/>
+                                <connections>
+                                    <action selector="DDCalculate:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="S5O-s6-DCp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Ea-HL-mbX" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="173" id="7m4-jo-vyZ"/>
+                            <constraint firstItem="8Ea-HL-mbX" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="118" id="Yth-xU-bo8"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="8Ea-HL-mbX" secondAttribute="trailing" constant="119" id="aWy-Lh-lBl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Calculate" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="Calculate" destination="8Ea-HL-mbX" id="FMV-Gm-adu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="nRs-ZF-ufc" kind="relationship" relationship="viewControllers" id="vZ7-c1-HdW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
