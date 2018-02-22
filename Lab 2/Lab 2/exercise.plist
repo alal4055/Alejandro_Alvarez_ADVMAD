@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Running</key>
+	<array>
+		<string>2 hours</string>
+		<string>3 hours</string>
+	</array>
+	<key>Walking</key>
+	<array/>
+	<key>Jogging</key>
+	<array>
+		<string>1 hour</string>
+		<string>1 hour</string>
+	</array>
+	<key>Cycling</key>
+	<array>
+		<string>3 hours</string>
+		<string>4 hours</string>
+	</array>
+	<key>Push Ups</key>
+	<array>
+		<string>1 hour</string>
+		<string>1 hour</string>
+	</array>
+	<key>Pull Ups</key>
+	<array>
+		<string>2 hours</string>
+		<string>1 hour</string>
+	</array>
+	<key>Jumping Jacks</key>
+	<array>
+		<string>1 hour</string>
+		<string>1 hour</string>
+	</array>
+	<key>Crunches</key>
+	<array>
+		<string>1 Hour</string>
+		<string>1 Hour</string>
+	</array>
+</dict>
+</plist>
