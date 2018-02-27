@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Jim Halpert</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Jim_Halpert</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Michael Scott</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Michael_Scott_(The_Office)</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Dwight Schrute</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Dwight_Schrute</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pam Beesly</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Pam_Beesly</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ryan Howard</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Ryan_Howard_(The_Office)</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Andy Bernard</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Andy_Bernard</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Robert California</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Robert_California</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kevin Malone</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Kevin_Malone</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Meredith Palmer</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Meredith_Palmer</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Angela Martin</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Angela_Martin</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Oscar Martinez</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Oscar_Martinez_(The_Office)</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Phylis Vance</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Phyllis_Vance</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Darryl Philbin</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Darryl_Philbin</string>
+	</dict>
+</array>
+</plist>
