@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Jim Halpert</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Jim_Halpert</string>
+		<key>description</key>
+		<string>Jim was a salesman at what was formerly Dunder Mifflin-Sabre until he later pursued his company Athlead.</string>
+		<key>fact</key>
+		<string>Some of Jim&apos;s nicknames were Jimbo, Big Tuna, Halpert, Tuna, and Fat Halpert</string>
+		<key>picture</key>
+		<string>jimhalpert</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Michael Scott</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Michael_Scott_(The_Office)</string>
+		<key>description</key>
+		<string>Michael is the former branch manager of the Scranton branch of Dunder Mifflin Paper Company, Michael Scott Paper Company Inc., and later Dunder Mifflin Sabre.</string>
+		<key>fact</key>
+		<string>Michael had an estranged half-sister from 1995 through 2010.</string>
+		<key>picture</key>
+		<string>michaelscott</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Dwight Schrute</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Dwight_Schrute</string>
+		<key>description</key>
+		<string> Dwight is the Assistant to the Regional Manager in selling paper and is a great salesman for Dunder Mifflin.</string>
+		<key>fact</key>
+		<string>Dwight almost always wears a mustard-colored short-sleeved dress shirt with a dark tie.</string>
+		<key>picture</key>
+		<string>dwightschrute</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pam Beesly</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Pam_Beesly</string>
+		<key>description</key>
+		<string>Pam is the receptionist at Dunder Mifflin&apos;s Scranton, PA branch and later becomes a sales representative.</string>
+		<key>fact</key>
+		<string>Pam&apos;s favorite flavor of yogurt is mixed berry.</string>
+		<key>picture</key>
+		<string>pambeesly</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ryan Howard</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Ryan_Howard_(The_Office)</string>
+		<key>description</key>
+		<string>Ryan was the VP of Northeastern sales and he also was the Representative Salesman for the Michael Scott Paper Company.</string>
+		<key>fact</key>
+		<string>Ryan goes on a sales call with Stanley, and Ryan only manages to say, &quot;Hi.&quot;</string>
+		<key>picture</key>
+		<string>ryanhoward</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Andy Bernard</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Andy_Bernard</string>
+		<key>description</key>
+		<string>Andy was a Salesman at Dunder Mifflin/Sabre until he was promoted to Regional Manager.</string>
+		<key>fact</key>
+		<string>Andy grew up in a life of privilege and often can&apos;t comprehend how less wealthy people live their lives.</string>
+		<key>picture</key>
+		<string>andybernard</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Robert California</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Robert_California</string>
+		<key>description</key>
+		<string>Robert is the CEO of the company named Sabre.</string>
+		<key>fact</key>
+		<string>Robert hates ties and he enjoys playing squash.</string>
+		<key>picture</key>
+		<string>robertcalifornia</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kevin Malone</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Kevin_Malone</string>
+		<key>description</key>
+		<string>Kevin is an Accountant at Dunder Mifflin.</string>
+		<key>fact</key>
+		<string>Kevin is actually a bar owner as well.</string>
+		<key>picture</key>
+		<string>kevinmalone</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Meredith Palmer</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Meredith_Palmer</string>
+		<key>description</key>
+		<string>Meredith worked in Purchasing and Supplier Relations for Dunder Mifflin Scranton.</string>
+		<key>fact</key>
+		<string>Meredith has an alcohol problem that can sometimes affect her performance at her job.</string>
+		<key>picture</key>
+		<string>meredithpalmer</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Angela Martin</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Angela_Martin</string>
+		<key>description</key>
+		<string>Angela is  the head of the  Accounting department at Dunder Mifflin/Sabre of the Scranton Branch.</string>
+		<key>fact</key>
+		<string>Angela&apos;s middle name is Noelle.</string>
+		<key>picture</key>
+		<string>angelamartin</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Oscar Martinez</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Oscar_Martinez_(The_Office)</string>
+		<key>description</key>
+		<string>Oscar is an accountant at Dunder Mifflin Scranton.</string>
+		<key>fact</key>
+		<string>Oscar joined the Party Planning Committee to help plan his own &quot;Welcome Back&quot; party.</string>
+		<key>picture</key>
+		<string>oscarmartinez</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Phylis Vance</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Phyllis_Vance</string>
+		<key>description</key>
+		<string>Phylis is a Sales Representative at Dunder Mifflin in Scranton.</string>
+		<key>fact</key>
+		<string>Phyllis went to the same high school as Michael and she and her friends often wondered if Michael was gay because of how he dressed.</string>
+		<key>picture</key>
+		<string>phylisvance</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Darryl Philbin</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Darryl_Philbin</string>
+		<key>description</key>
+		<string>Darryl is the Warehouse Foreman at Dunder Mifflin.  He works from the warehouse until he is given an office, which is upstaris, by Jo Bennett.</string>
+		<key>fact</key>
+		<string>Darryl divorced his ex-wife, Justine. Together they have a daughter, Jada.</string>
+		<key>picture</key>
+		<string>darrylphilbin</string>
+	</dict>
+</array>
+</plist>
