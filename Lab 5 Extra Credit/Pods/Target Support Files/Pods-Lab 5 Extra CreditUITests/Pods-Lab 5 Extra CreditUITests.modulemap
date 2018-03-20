@@ -1,0 +1,6 @@
+framework module Pods_Lab_5_Extra_CreditUITests {
+  umbrella header "Pods-Lab 5 Extra CreditUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

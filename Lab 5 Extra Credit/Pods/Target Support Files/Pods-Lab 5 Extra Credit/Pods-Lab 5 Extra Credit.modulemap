@@ -1,0 +1,6 @@
+framework module Pods_Lab_5_Extra_Credit {
+  umbrella header "Pods-Lab 5 Extra Credit-umbrella.h"
+
+  export *
+  module * { export * }
+}
