@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BaseballTeams</string>
+    <string name="teams">Teams</string>
+    <string-array name="team_types">
+        <item>Rockies</item>
+        <item>Dodgers</item>
+        <item>Giants</item>
+    </string-array>
+    <string name="team_image">Bulb picture</string>
+    <string name="create_order">Order</string>
+</resources>
