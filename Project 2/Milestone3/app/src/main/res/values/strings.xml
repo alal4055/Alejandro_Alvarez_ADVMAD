@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Milestone 3</string>
+    <string name="startButton">Start Recording</string>
+    <string name="stopButton">Stop Recording</string>
+    <string name="playbackButton">Playback Notes</string>
+    <string name="play">Play</string>
+    <string name="numberLevelText">1</string>
+    <string name="currentLevelText">Level:</string>
+    <string name="thanksText">Thanks for Playing!</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="levelOverText">More Levels Coming Soon...</string>
+    <string name="highScoreText">Coming Soon...</string>
+    <string name="continueText">Tap to Continue...</string>
+    <string name="pickerText">Pick Level</string>
+    <string-array name="levels">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

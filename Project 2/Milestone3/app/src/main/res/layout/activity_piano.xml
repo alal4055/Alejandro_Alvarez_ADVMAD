@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.alejandroalvarez.milestone3.levelOne"
+    tools:layout_editor_absoluteY="73dp">
+
+    <RelativeLayout
+        android:id="@+id/wholeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="374dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095">
+
+
+        <ImageView
+            android:id="@+id/gKey"
+            android:layout_width="65dp"
+            android:layout_height="243dp"
+            android:layout_alignTop="@+id/fKey"
+            android:layout_toEndOf="@+id/fKey"
+            android:layout_toRightOf="@+id/fKey"
+            android:onClick="gPlay"
+            app:srcCompat="@drawable/pianokey"
+            tools:layout_editor_absoluteX="332dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/eKey"
+            android:layout_width="65dp"
+            android:layout_height="243dp"
+            android:layout_alignTop="@+id/fKey"
+            android:layout_toLeftOf="@+id/fKey"
+            android:layout_toStartOf="@+id/fKey"
+            android:onClick="ePlay"
+            app:srcCompat="@drawable/pianokey"
+            tools:layout_editor_absoluteX="202dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/bKey"
+            android:layout_width="65dp"
+            android:layout_height="243dp"
+            android:layout_alignTop="@+id/aKey"
+            android:layout_toEndOf="@+id/aKey"
+            android:layout_toRightOf="@+id/aKey"
+            android:onClick="bPlay"
+            app:srcCompat="@drawable/pianokey"
+            tools:layout_editor_absoluteX="462dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/aKey"
+            android:layout_width="65dp"
+            android:layout_height="243dp"
+            android:layout_alignTop="@+id/gKey"
+            android:layout_toEndOf="@+id/gKey"
+            android:layout_toRightOf="@+id/gKey"
+            android:onClick="aPlay"
+            app:srcCompat="@drawable/pianokey"
+            tools:layout_editor_absoluteX="397dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+
+        <ImageView
+            android:id="@+id/dKey"
+            android:layout_width="65dp"
+            android:layout_height="243dp"
+            android:layout_alignTop="@+id/eKey"
+            android:layout_toLeftOf="@+id/eKey"
+            android:layout_toStartOf="@+id/eKey"
+            android:onClick="dPlay"
+            app:srcCompat="@drawable/pianokey"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/cKey"
+            android:layout_width="65dp"
+            android:layout_height="243dp"
+            android:layout_alignTop="@+id/dKey"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/dKey"
+            android:layout_toStartOf="@+id/dKey"
+            android:onClick="cPlay"
+            app:srcCompat="@drawable/pianokey"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/fKey"
+            android:layout_width="65dp"
+            android:layout_height="243dp"
+            android:layout_centerInParent="true"
+            android:onClick="fPlay"
+            app:srcCompat="@drawable/pianokey"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <LinearLayout
+            android:layout_width="455dp"
+            android:layout_height="138dp"
+            android:layout_alignTop="@id/cKey"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/cSharpKey"
+                android:layout_width="40dp"
+                android:layout_height="138dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginStart="46dp"
+                android:layout_marginTop="0dp"
+                android:onClick="cSharpPlay"
+                app:srcCompat="@drawable/blackpianokey" />
+
+            <ImageView
+                android:id="@+id/dSharpKey"
+                android:layout_width="40dp"
+                android:layout_height="138dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="0dp"
+                android:onClick="dSharpPlay"
+                app:srcCompat="@drawable/blackpianokey" />
+
+            <ImageView
+                android:id="@+id/fSharpKey"
+                android:layout_width="40dp"
+                android:layout_height="138dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="0dp"
+                android:onClick="fSharpPlay"
+                app:srcCompat="@drawable/blackpianokey" />
+
+            <ImageView
+                android:id="@+id/gSharpKey"
+                android:layout_width="40dp"
+                android:layout_height="138dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="0dp"
+                android:onClick="gSharpPlay"
+                app:srcCompat="@drawable/blackpianokey" />
+
+            <ImageView
+                android:id="@+id/aSharpKey"
+                android:layout_width="40dp"
+                android:layout_height="138dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="0dp"
+                android:onClick="aSharpPlay"
+                app:srcCompat="@drawable/blackpianokey" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/fKey"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="findStartTime"
+                android:text="@string/startButton" />
+
+            <TextView
+                android:id="@+id/currentLevel"
+                android:textAlignment="viewEnd"
+                android:gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="@string/currentLevelText" />
+
+            <TextView
+                android:id="@+id/numberLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="@string/numberLevelText" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="playbackNotes"
+                android:text="@string/playbackButton" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
