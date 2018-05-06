@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "463734367847",
+    "firebase_url": "https://project-2-18913.firebaseio.com",
+    "project_id": "project-2-18913",
+    "storage_bucket": "project-2-18913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463734367847:android:90bf838977619dd7",
+        "android_client_info": {
+          "package_name": "com.example.alejandroalvarez.lab9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463734367847-vf83dir4cioi6dvnngc4vvhnn0jmtob5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alejandroalvarez.lab9",
+            "certificate_hash": "3ced8b14e7c4165788c7f917b3ea0dee87d024c5"
+          }
+        },
+        {
+          "client_id": "463734367847-hka6heg7m8kl96qhg16oonkgktra7uss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBskcShur8EGLyGpjYi-kFFROLQIyzVgPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463734367847-hka6heg7m8kl96qhg16oonkgktra7uss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463734367847:android:c60280c6d616a5c6",
+        "android_client_info": {
+          "package_name": "com.example.alejandroalvarez.project2_milestone2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463734367847-tc0tgqdj2puka2jqsapf4lsah2jog6nf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alejandroalvarez.project2_milestone2",
+            "certificate_hash": "3ced8b14e7c4165788c7f917b3ea0dee87d024c5"
+          }
+        },
+        {
+          "client_id": "463734367847-hka6heg7m8kl96qhg16oonkgktra7uss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBskcShur8EGLyGpjYi-kFFROLQIyzVgPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463734367847-hka6heg7m8kl96qhg16oonkgktra7uss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
