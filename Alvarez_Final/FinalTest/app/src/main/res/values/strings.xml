@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AlvarezFinal</string>
+    <string-array name="workoutList">
+        <item>
+            Cardio
+        </item>
+        <item>
+            Strength
+        </item>
+        <item>
+            Flexibility
+        </item>
+    </string-array>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="create_order">Order</string>
+    <string name="action_settings">Settings</string>
+</resources>
